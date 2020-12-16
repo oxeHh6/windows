@@ -30,12 +30,18 @@
     <ClInclude Include="RCS.h">
       <Filter>头文件</Filter>
     </ClInclude>
+    <ClInclude Include="worm.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
   </ItemGroup>
   <ItemGroup>
     <ClCompile Include="stdafx.cpp">
       <Filter>源文件</Filter>
     </ClCompile>
     <ClCompile Include="RCS.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="worm.cpp">
       <Filter>源文件</Filter>
     </ClCompile>
   </ItemGroup>

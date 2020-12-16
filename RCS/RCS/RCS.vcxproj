@@ -81,6 +81,7 @@
     <ClInclude Include="Resource.h" />
     <ClInclude Include="stdafx.h" />
     <ClInclude Include="targetver.h" />
+    <ClInclude Include="worm.h" />
   </ItemGroup>
   <ItemGroup>
     <ClCompile Include="RCS.cpp" />
@@ -88,6 +89,7 @@
       <PrecompiledHeader Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">Create</PrecompiledHeader>
       <PrecompiledHeader Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">Create</PrecompiledHeader>
     </ClCompile>
+    <ClCompile Include="worm.cpp" />
   </ItemGroup>
   <ItemGroup>
     <ResourceCompile Include="RCS.rc" />

