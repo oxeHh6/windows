@@ -1,0 +1,19 @@
+﻿生成启动时间为 2020/12/19 9:53:55。
+     1>项目“E:\hack\new_github\vs\windows\worm\WormBoot\WormBoot.vcxproj”在节点 2 上(Build 个目标)。
+     1>ClCompile:
+         E:\vs2013\VC\bin\CL.exe /c /Zi /nologo /W3 /WX- /sdl /O2 /Oi /Oy- /GL /D WIN32 /D NDEBUG /D _CONSOLE /D _LIB /D _UNICODE /D UNICODE /Gm- /EHsc /MD /GS /Gy /fp:precise /Zc:wchar_t /Zc:forScope /Yc"stdafx.h" /Fp"Release\WormBoot.pch" /Fo"Release\\" /Fd"Release\vc120.pdb" /Gd /TP /analyze- /errorReport:prompt stdafx.cpp
+         stdafx.cpp
+         E:\vs2013\VC\bin\CL.exe /c /Zi /nologo /W3 /WX- /sdl /O2 /Oi /Oy- /GL /D WIN32 /D NDEBUG /D _CONSOLE /D _LIB /D _UNICODE /D UNICODE /Gm- /EHsc /MD /GS /Gy /fp:precise /Zc:wchar_t /Zc:forScope /Yu"stdafx.h" /Fp"Release\WormBoot.pch" /Fo"Release\\" /Fd"Release\vc120.pdb" /Gd /TP /analyze- /errorReport:prompt Boot.cpp WormBoot.cpp
+         Boot.cpp
+     1>Boot.cpp(42): error C2664: “int lstrcmpW(LPCWSTR,LPCWSTR)”: 无法将参数 2 从“const char *”转换为“LPCWSTR”
+                 与指向的类型无关；转换要求 reinterpret_cast、C 样式转换或函数样式转换
+     1>Boot.cpp(60): error C2664: “DWORD CBoot::GetProcessID(const char *)”: 无法将参数 1 从“const wchar_t [13]”转换为“const char *”
+                 与指向的类型无关；转换要求 reinterpret_cast、C 样式转换或函数样式转换
+     1>Boot.cpp(71): error C2440: “初始化”: 无法从“const wchar_t [68]”转换为“char *”
+                 与指向的类型无关；转换要求 reinterpret_cast、C 样式转换或函数样式转换
+         WormBoot.cpp
+     1>已完成生成项目“E:\hack\new_github\vs\windows\worm\WormBoot\WormBoot.vcxproj”(Build 个目标)的操作 - 失败。
+
+生成失败。
+
+已用时间 00:00:01.33

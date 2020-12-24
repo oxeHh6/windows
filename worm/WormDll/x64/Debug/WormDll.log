@@ -1,0 +1,26 @@
+﻿  dllmain.cpp
+E:\hack\new_github\vs\windows\worm\WormDll\dllmain.cpp(28,5): warning C4996: 'sprintf': This function or variable may be unsafe. Consider using sprintf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+E:\hack\new_github\vs\windows\worm\WormDll\dllmain.cpp(29,5): warning C4996: 'sprintf': This function or variable may be unsafe. Consider using sprintf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+E:\hack\new_github\vs\windows\worm\WormDll\dllmain.cpp(30,5): warning C4996: 'sprintf': This function or variable may be unsafe. Consider using sprintf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+E:\hack\new_github\vs\windows\worm\WormDll\dllmain.cpp(52,5): warning C4996: 'sprintf': This function or variable may be unsafe. Consider using sprintf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+E:\hack\new_github\vs\windows\worm\WormDll\dllmain.cpp(53,5): warning C4996: 'sprintf': This function or variable may be unsafe. Consider using sprintf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+E:\hack\new_github\vs\windows\worm\WormDll\dllmain.cpp(54,5): warning C4996: 'sprintf': This function or variable may be unsafe. Consider using sprintf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+E:\hack\new_github\vs\windows\worm\WormDll\dllmain.cpp(75,4): warning C4996: 'sprintf': This function or variable may be unsafe. Consider using sprintf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+E:\hack\new_github\vs\windows\worm\WormDll\dllmain.cpp(76,4): warning C4996: 'sprintf': This function or variable may be unsafe. Consider using sprintf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+E:\hack\new_github\vs\windows\worm\WormDll\dllmain.cpp(108,32): warning C4996: 'inet_addr': Use inet_pton() or InetPton() instead or define _WINSOCK_DEPRECATED_NO_WARNINGS to disable deprecated API warnings
+E:\hack\new_github\vs\windows\worm\WormDll\CCASQueue.h(64,1): warning C4311: “类型强制转换”: 从“CCASQueue<std::string>::Node *”到“long”的指针截断
+E:\hack\new_github\vs\windows\worm\WormDll\CCASQueue.h(49): message : 在编译 类 模板 成员函数“void CCASQueue<std::string>::enqueue(const T &)”时
+          with
+          [
+              T=std::string
+          ]
+E:\hack\new_github\vs\windows\worm\WormDll\dllmain.cpp(33): message : 查看对正在编译的函数 模板 实例化“void CCASQueue<std::string>::enqueue(const T &)”的引用
+          with
+          [
+              T=std::string
+          ]
+E:\hack\new_github\vs\windows\worm\WormDll\dllmain.cpp(33): message : 查看对正在编译的 类 模板 实例化“CCASQueue<std::string>”的引用
+E:\hack\new_github\vs\windows\worm\WormDll\CCASQueue.h(64,1): warning C4302: “类型强制转换”: 从“CCASQueue<std::string>::Node *”到“long”截断
+E:\hack\new_github\vs\windows\worm\WormDll\CCASQueue.h(66,1): warning C4311: “类型强制转换”: 从“CCASQueue<std::string>::Node *”到“long”的指针截断
+E:\hack\new_github\vs\windows\worm\WormDll\CCASQueue.h(66,1): warning C4302: “类型强制转换”: 从“CCASQueue<std::string>::Node *”到“long”截断
+  WormDll.vcxproj -> E:\hack\new_github\vs\windows\worm\WormBoot\x64\Debug\WormDll.dll

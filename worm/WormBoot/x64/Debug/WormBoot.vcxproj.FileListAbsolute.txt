@@ -1,0 +1,2 @@
+E:\hack\new_github\vs\windows\worm\WormBoot\x64\Debug\WormBoot.exe
+E:\hack\new_github\vs\windows\worm\WormBoot\x64\Debug\WormBoot.pdb

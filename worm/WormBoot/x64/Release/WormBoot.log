@@ -1,0 +1,20 @@
+﻿生成启动时间为 2020/12/19 10:42:28。
+     1>项目“E:\hack\new_github\vs\windows\worm\WormBoot\WormBoot.vcxproj”在节点 2 上(Rebuild 个目标)。
+     1>ClCompile:
+         E:\vs2013\VC\bin\x86_amd64\CL.exe /c /Zi /nologo /W3 /WX- /sdl /O2 /Oi /GL /D WIN32 /D NDEBUG /D _CONSOLE /D _LIB /D _MBCS /Gm- /EHsc /MT /GS /Gy /fp:precise /Zc:wchar_t /Zc:forScope /Yc"stdafx.h" /Fp"x64\Release\WormBoot.pch" /Fo"x64\Release\\" /Fd"x64\Release\vc120.pdb" /Gd /TP /errorReport:prompt stdafx.cpp
+         stdafx.cpp
+         E:\vs2013\VC\bin\x86_amd64\CL.exe /c /Zi /nologo /W3 /WX- /sdl /O2 /Oi /GL /D WIN32 /D NDEBUG /D _CONSOLE /D _LIB /D _MBCS /Gm- /EHsc /MT /GS /Gy /fp:precise /Zc:wchar_t /Zc:forScope /Yu"stdafx.h" /Fp"x64\Release\WormBoot.pch" /Fo"x64\Release\\" /Fd"x64\Release\vc120.pdb" /Gd /TP /errorReport:prompt Boot.cpp WormBoot.cpp
+         Boot.cpp
+         WormBoot.cpp
+       Link:
+         E:\vs2013\VC\bin\x86_amd64\link.exe /ERRORREPORT:PROMPT /OUT:"E:\hack\new_github\vs\windows\worm\WormBoot\x64\Release\WormBoot.exe" /INCREMENTAL:NO /NOLOGO kernel32.lib user32.lib gdi32.lib winspool.lib comdlg32.lib advapi32.lib shell32.lib ole32.lib oleaut32.lib uuid.lib odbc32.lib odbccp32.lib /MANIFEST /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /manifest:embed /DEBUG /PDB:"E:\hack\new_github\vs\windows\worm\WormBoot\x64\Release\WormBoot.pdb" /SUBSYSTEM:CONSOLE /OPT:REF /OPT:ICF /LTCG /TLBID:1 /DYNAMICBASE /NXCOMPAT /IMPLIB:"E:\hack\new_github\vs\windows\worm\WormBoot\x64\Release\WormBoot.lib" /MACHINE:X64 x64\Release\Boot.obj
+         x64\Release\stdafx.obj
+         x64\Release\WormBoot.obj
+         正在生成代码
+         已完成代码的生成
+         WormBoot.vcxproj -> E:\hack\new_github\vs\windows\worm\WormBoot\x64\Release\WormBoot.exe
+     1>已完成生成项目“E:\hack\new_github\vs\windows\worm\WormBoot\WormBoot.vcxproj”(Rebuild 个目标)的操作。
+
+生成成功。
+
+已用时间 00:00:02.10

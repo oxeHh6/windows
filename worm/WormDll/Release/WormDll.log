@@ -1,0 +1,23 @@
+﻿生成启动时间为 2020/12/19 9:53:55。
+     1>项目“E:\hack\new_github\vs\windows\worm\WormDll\WormDll.vcxproj”在节点 3 上(Build 个目标)。
+     1>ClCompile:
+         E:\vs2013\VC\bin\CL.exe /c /Zi /nologo /W3 /WX- /sdl /O2 /Oi /Oy- /GL /D WIN32 /D NDEBUG /D _WINDOWS /D _USRDLL /D WORMDLL_EXPORTS /D _WINDLL /D _MBCS /Gm- /EHsc /MT /GS /Gy /fp:precise /Zc:wchar_t /Zc:forScope /Yc"stdafx.h" /Fp"Release\WormDll.pch" /Fo"Release\\" /Fd"Release\vc120.pdb" /Gd /TP /analyze- /errorReport:prompt stdafx.cpp
+         stdafx.cpp
+         E:\vs2013\VC\bin\CL.exe /c /Zi /nologo /W3 /WX- /sdl /O2 /Oi /Oy- /GL /D WIN32 /D NDEBUG /D _WINDOWS /D _USRDLL /D WORMDLL_EXPORTS /D _WINDLL /D _MBCS /Gm- /EHsc /MT /GS /Gy /fp:precise /Zc:wchar_t /Zc:forScope /Fo"Release\\" /Fd"Release\vc120.pdb" /Gd /TP /analyze- /errorReport:prompt dllmain.cpp
+         dllmain.cpp
+         E:\vs2013\VC\bin\CL.exe /c /Zi /nologo /W3 /WX- /sdl /O2 /Oi /Oy- /GL /D WIN32 /D NDEBUG /D _WINDOWS /D _USRDLL /D WORMDLL_EXPORTS /D _WINDLL /D _MBCS /Gm- /EHsc /MT /GS /Gy /fp:precise /Zc:wchar_t /Zc:forScope /Yu"stdafx.h" /Fp"Release\WormDll.pch" /Fo"Release\\" /Fd"Release\vc120.pdb" /Gd /TP /analyze- /errorReport:prompt Worm.cpp WormDll.cpp
+         Worm.cpp
+         WormDll.cpp
+       Link:
+         E:\vs2013\VC\bin\link.exe /ERRORREPORT:PROMPT /OUT:"E:\hack\new_github\vs\windows\worm\WormBoot\Release\WormDll.dll" /INCREMENTAL:NO /NOLOGO kernel32.lib user32.lib gdi32.lib winspool.lib comdlg32.lib advapi32.lib shell32.lib ole32.lib oleaut32.lib uuid.lib odbc32.lib odbccp32.lib /MANIFEST /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /manifest:embed /DEBUG /PDB:"E:\hack\new_github\vs\windows\worm\WormBoot\Release\WormDll.pdb" /SUBSYSTEM:WINDOWS /OPT:REF /OPT:ICF /LTCG /TLBID:1 /DYNAMICBASE /NXCOMPAT /IMPLIB:"E:\hack\new_github\vs\windows\worm\WormBoot\Release\WormDll.lib" /MACHINE:X86 /SAFESEH /DLL Release\dllmain.obj
+         Release\stdafx.obj
+         Release\Worm.obj
+         Release\WormDll.obj
+         正在生成代码
+         已完成代码的生成
+         WormDll.vcxproj -> E:\hack\new_github\vs\windows\worm\WormBoot\Release\WormDll.dll
+     1>已完成生成项目“E:\hack\new_github\vs\windows\worm\WormDll\WormDll.vcxproj”(Build 个目标)的操作。
+
+生成成功。
+
+已用时间 00:00:02.15
